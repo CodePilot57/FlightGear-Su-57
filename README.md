@@ -7,6 +7,8 @@ This repository contains an early, incomplete version of the Su-57 (T-50 PAK FA)
 
 Expected date of first useable version: end of the year (2025)
 
+**Unfortunately, due to hardware failure, the release date is delayed to around spring 2026. I'm sorry but FG aircraft development is hard...
+
 Check back later for updates. Contributions and collaboration may be welcome once the project reaches a usable state.
 
 After it's ready, everybody can use this aircraft for non-commercial purposes, especially playing TopGun: Maverick with the F-14 Tomcat from the official hangar.

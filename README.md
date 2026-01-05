@@ -7,7 +7,7 @@ This repository contains an early, incomplete version of the Su-57 (T-50 PAK FA)
 
 Expected date of first useable version: end of the year (2025)
 
-**Unfortunately, due to hardware failure, the release date is delayed to around spring 2026. I'm sorry but FG aircraft development is hard...
+**Unfortunately, due to hardware failure, the release date is delayed to around spring 2026.** I'm sorry but FG aircraft development is hard...
 
 Check back later for updates. Contributions and collaboration may be welcome once the project reaches a usable state.
 

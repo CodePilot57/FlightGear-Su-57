@@ -8,6 +8,7 @@ name "Cylinder"
 loc -2.27099 -1.01328e-006 -0.535559
 data 8
 Cylinder
+texture "Body.png"
 crease 40.000000
 numvert 128
 8.46332 -0.16995 2.4973
@@ -733,6 +734,7 @@ name "SU57-airframe"
 loc -2.27099 -1.01328e-006 -0.535559
 data 13
 pkfa-airframe
+texture "Body.png"
 crease 40.000000
 numvert 7446
 -7.36576 -0.07778 1.08916
@@ -82252,6 +82254,7 @@ name "SU57-airframe.001"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.001
+texture "Body.png"
 crease 40.000000
 numvert 83
 8.31055 -0.25271 2.6426
@@ -82686,6 +82689,7 @@ name "SU57-airframe.002"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.002
+texture "Body.png"
 crease 40.000000
 numvert 71
 8.31429 -0.16691 -2.5235
@@ -83048,6 +83052,7 @@ name "SU57-airframe.003"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.003
+texture "Body.png"
 crease 40.000000
 numvert 45
 8.09939 2.12209 3.94096
@@ -83402,6 +83407,7 @@ name "SU57-airframe.004"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.004
+texture "Body.png"
 crease 40.000000
 numvert 23
 8.09862 2.10462 -2.90736
@@ -83572,6 +83578,7 @@ name "SU57-airframe.005"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.005
+texture "Body.png"
 crease 40.000000
 numvert 1017
 9.74817 0.25972 -0.883041
@@ -94552,6 +94559,7 @@ name "SU57-airframe.006"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.006
+texture "Body.png"
 crease 40.000000
 numvert 968
 9.74817 0.25972 1.95415
@@ -105081,6 +105089,7 @@ name "SU57-airframe.007"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.007
+texture "Body.png"
 crease 40.000000
 numvert 20
 5.4128 -0.08686 7.01707
@@ -105218,6 +105227,7 @@ name "SU57-airframe.008"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.008
+texture "Body.png"
 crease 40.000000
 numvert 23
 1.84115 -0.15978 -2.69979
@@ -105364,6 +105374,7 @@ name "SU57-airframe.009"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.009
+texture "Body.png"
 crease 40.000000
 numvert 35
 -1.15275 0.17114 -1.09199
@@ -105648,6 +105659,7 @@ name "SU57-airframe.010"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.010
+texture "Body.png"
 crease 40.000000
 numvert 34
 -1.15275 0.17114 2.1631
@@ -105943,6 +105955,7 @@ name "SU57-airframe.011"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.011
+texture "Body.png"
 crease 40.000000
 numvert 184
 -4.76674 0.64214 -0.000669599
@@ -107624,6 +107637,7 @@ name "SU57-airframe.012"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.012
+texture "Body.png"
 crease 40.000000
 numvert 51
 6.56789 -0.23085 -3.45559
@@ -108062,6 +108076,7 @@ name "SU57-airframe.013"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.013
+texture "Body.png"
 crease 40.000000
 numvert 54
 6.34909 -0.0953 5.6053
@@ -108503,6 +108518,7 @@ name "SU57-airframe.014"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.014
+texture "Body.png"
 crease 40.000000
 numvert 58
 6.62415 -0.12154 -5.95735
@@ -108924,6 +108940,7 @@ name "SU57-airframe.015"
 loc -2.27099 -1.01328e-006 -0.535559
 data 17
 pkfa-airframe.015
+texture "Body.png"
 crease 40.000000
 numvert 58
 6.62584 -0.0827 7.02846
@@ -109363,6 +109380,7 @@ name "SU57-canopy"
 loc -2.27099 -1.01328e-006 -0.535559
 data 14
 pkfa-canopyTop
+texture "Body.png"
 crease 40.000000
 numvert 170
 -4.76129 0.68729 1.05144
@@ -111258,6 +111276,7 @@ name "SU57-canopy.001"
 loc -2.27099 -1.01328e-006 -0.535559
 data 18
 pkfa-canopyTop.001
+texture "Body.png"
 crease 40.000000
 numvert 195
 -4.0782 0.93544 0.0740905
@@ -113418,6 +113437,7 @@ name "SU57-instrGlass"
 loc -2.27099 -1.01328e-006 -0.535559
 data 15
 pkfa-instrGlass
+texture "Body.png"
 crease 40.000000
 numvert 176
 -6.42867 0.5622 0.476071
@@ -115391,6 +115411,7 @@ name "SU57-landingOff"
 loc -2.27099 -1.01328e-006 -0.535559
 data 15
 pkfa-landingOff
+texture "Body.png"
 crease 40.000000
 numvert 100
 3.13362 -0.23119 -2.00587
@@ -116526,6 +116547,7 @@ name "SU57-landingOff.001"
 loc -2.27099 -1.01328e-006 -0.535559
 data 19
 pkfa-landingOff.001
+texture "Body.png"
 crease 40.000000
 numvert 29
 -4.42428 -0.53036 0.69117
@@ -116768,6 +116790,7 @@ name "SU57-landingOff.002"
 loc -2.27099 -1.01328e-006 -0.535559
 data 19
 pkfa-landingOff.002
+texture "Body.png"
 crease 40.000000
 numvert 100
 1.96908 -0.25421 2.75254
@@ -117903,6 +117926,7 @@ name "SU57-landingOn"
 loc -2.27099 -1.01328e-006 -0.535559
 data 14
 pkfa-landingOn
+texture "Body.png"
 crease 40.000000
 numvert 5313
 -2.66697 -1.79643 0.47949

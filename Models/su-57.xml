@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+  <!-- ========================================================= -->
+  <!-- Sukhoi Su-57 Main Visual Model Definition -->
+  <!-- Compatible with FlightGear 2024.2 -->
+  <!-- Author: POLSKY1 -->
+  <!-- ========================================================= -->
+
+  <!-- ========================================================= -->
+  <!-- Base model geometry -->
+  <!-- ========================================================= -->
+  <model>
+    <path>Models/su57.ac</path>
+    <offsets>
+      <x-m>0</x-m>
+      <y-m>0</y-m>
+      <z-m>0.3</z-m>
+    </offsets>
+    <material>
+        <name>exterior-glass</name>
+        <object-name>Canopy</object-name>
+    </material>
+  </model>
+
+  <!-- ========================================================= -->
+  <!-- LOD (optional) -->
+  <!-- ========================================================= -->
+  <lod>
+    <min-range-m>0</min-range-m>
+    <max-range-m>15000</max-range-m>
+    <model>Models/su57.ac</model>
+  </lod>
+
+  <!-- ========================================================= -->
+  <!-- Control Surface Animations -->
+  <!-- ========================================================= -->
+
+  <!-- Ailerons -->
+<animation>
+    <type>rotate</type>
+    <object-name>Aileron-L</object-name>
+    <property>controls/flight/aileron</property>
+    <factor>-20</factor>
+    <axis>
+      <object-name>Aileron-L-axis</object-name>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Aileron-R</object-name>
+    <property>controls/flight/aileron</property>
+    <factor-deg>20</factor-deg>
+    <axis>
+      <x>12</x><y>4</y><z>0</z>
+    </axis>
+  </animation>
+
+  <!-- Elevators -->
+  <animation>
+    <type>rotate</type>
+    <object-name>Elevator-L</object-name>
+    <property>controls/flight/elevator</property>
+    <factor-deg>-25</factor-deg>
+    <axis>
+      <x>0</x><y>1</y><z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Elevator-R</object-name>
+    <property>controls/flight/elevator</property>
+    <factor-deg>-25</factor-deg>
+    <axis>
+      <x>0</x><y>1</y><z>0</z>
+    </axis>
+  </animation>
+
+  <!-- Rudders -->
+  <animation>
+    <type>rotate</type>
+    <object-name>Rudder-L</object-name>
+    <property>sim/multiplay/generic/float[1]</property>
+    <factor-deg>60</factor-deg>
+    <center>
+        <x1-m>-15</x1-m>
+        <y1-m>-2</y1-m>
+        <z1-m>2</z1-m>
+        <x2-m>7</x2-m>
+        <y2-m>2</y2-m>
+        <z2-m>1</z2-m>
+    </center>
+    <axis>
+      <x>0</x><y>0</y><z>1</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Rudder-R</object-name>
+    <property>sim/multiplay/generic/float[1]</property>
+    <factor-deg>-60</factor-deg>
+    <center>
+        <x1-m>-15</x1-m>
+        <y1-m>-2</y1-m>
+        <z1-m>2</z1-m>
+        <x2-m>7</x2-m>
+        <y2-m>2</y2-m>
+        <z2-m>1</z2-m>
+    </center>
+    <axis>
+      <x>0</x><y>0</y><z>1</z>
+    </axis>
+  </animation>
+
+  <!-- ========================================================= -->
+  <!-- Landing Gear -->
+  <!-- ========================================================= -->
+  <animation>
+    <type>select</type>
+    <object-name>Gear</object-name>
+    <property>/gear/gear[0]/position-norm</property>
+    <factor>1</factor>
+    <condition>
+        <greater-than>
+            <property>gear/gear[0]/position-norm</property>
+            <value>0</value>
+        </greater-than>
+    </condition>
+  </animation>
+
+  <!-- ========================================================= -->
+  <!-- Canopy -->
+  <!-- ========================================================= -->
+  <animation>
+    <type>translate</type>
+    <object-name>Canopy</object-name>
+    <property>controls/canopy-pos-norm</property>
+    <factor-m>0.4</factor-m>
+    <axis>
+      <x>0</x><y>0</y><z>1</z>
+    </axis>
+  </animation>
+
+  <!-- ========================================================= -->
+  <!-- Engine Thrust Vectoring (if modeled) -->
+  <!-- ========================================================= -->
+  <animation>
+    <type>rotate</type>
+    <object-name>Nozzle-L</object-name>
+    <property>engines/engine[0]/vector/deflection-deg</property>
+    <factor-deg>1</factor-deg>
+    <axis>
+      <x>1</x><y>0</y><z>0</z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>Nozzle-R</object-name>
+    <property>engines/engine[1]/vector/deflection-deg</property>
+    <factor-deg>1</factor-deg>
+    <axis>
+      <x>1</x><y>0</y><z>0</z>
+    </axis>
+  </animation>
+
+  <!-- ========================================================= -->
+  <!-- Afterburner Effect Trigger -->
+  <!-- ========================================================= -->
+  <animation>
+    <type>select</type>
+    <object-name>Afterburner</object-name>
+    <property>engines/engine[0]/afterburner</property>
+    <condition>
+      <greater-than>
+        <property>engines/engine[0]/n1</property>
+        <value>0.8</value>
+      </greater-than>
+    </condition>
+  </animation>
+
+</PropertyList>
